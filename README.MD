@@ -2,6 +2,13 @@
 /* always in every file of styles*/
 :host {
     display: block;
+
+    /* host modifficator */
+	&._short {
+		table {
+			border-spacing: 0px 8px;
+		}
+	}
 }
 
 /* element/block */
@@ -17,5 +24,10 @@
       }
       &_hidden{}
    }
+}
+
+/* element/block */
+table {
+	border-spacing: 0px 10px;
 }
 ```
